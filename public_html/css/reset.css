@@ -9,7 +9,7 @@ fieldset{border:none;}
 caption{text-indent:-9999px; overflow:hidden; height:0;}
 body{font:12px/1.4 "HYB","nmg", gulim, "굴림", dotum, "돋움", san-serif; color:#333;}
 input, select, textarea{font:12px/1.4 gulim, "굴림", dotum, "돋움", san-serif; color:#333; vertical-align:middle;}
-h1,h2,h3,h4,h5,h6,address,strong,em{font-wize:100%; font-style:normal; font-weight:normal;}
+h1,h2,h3,h4,h5,h6,address,strong{font-size:100%; font-style:normal; font-weight:normal;}
 a{color:#333; text-decoration:none;} 
 a:hover, a:focus{color:#f00;} 
 input[type="text"], input[type="password"], input[type="tel"], input[type="url"], input[type="email"], input[type="search"]{border:1px solid #b4b4b4; height:17px;}
