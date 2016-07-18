@@ -12,7 +12,8 @@
 .vi_m1 {background: url(../images/container/vi_me_b.gif) right 0 no-repeat;padding: 18px 0;}
 .vi_m2, .vi_m3, .vi_m4, .vi_m5 {background: url(../images/container/vi_me_a.gif)  right 0 no-repeat;padding: 18px 0;}
 /*visual부분 끝*/
-.m_link_site{padding-top: 10px;padding-bottom: 10px;overflow: hidden;}
+.m_link_site{padding:7px 0 40px; overflow: hidden;}
+.m_link_site ul{border-bottom:1px solid #dbdbdb;}
 .m_link_site ul li:first-child{display: inline-block;padding-left: 76px;height: 58px;background: url(../images/container/banner_img_1.gif) 17px 65% no-repeat;padding-top: 29px;font-size: 11px;}
 .m_link_site ul li:first-child+li{display: inline-block;padding-left: 81px;height: 58px;background: url(../images/container/banner_img_2.gif) 27px 50% no-repeat;padding-top: 29px;font-size: 11px;}
 .m_link_site ul li:first-child+li+li{display: inline-block;padding-left: 102px;height: 58px;background: url(../images/container/banner_img_3.gif) 35px 50% no-repeat;padding-top: 29px;font-size: 11px;}
@@ -31,7 +32,7 @@
 .m_left_tab3{position: absolute;top: 0;right: 206px;}
 .m_left_tab1_2>ul, .m_left_tab1_3>ul{display: none;}
 .m_left_tab1_1>ul{display: block;}
-.m_left_1 ul li{height: 21px;padding-left: 15px;background: url(../images/container/tap_menu_point.jpg) 0 3px no-repeat;position: relative;}
+.m_left_1 ul li{line-height:24px;padding-left: 15px;background: url(../images/container/tap_menu_point.jpg) 0 50% no-repeat;position: relative;}
 .m_left_tab1_1>ul>li>time, .m_left_tab1_2>ul>li>time, .m_left_tab1_3>ul>li>time{position: absolute;top: 0;right: 0;}
 .m_left_tab1_1 p, .m_left_tab1_2 p, .m_left_tab1_3 p{position: absolute;top: 5px;right: 5px;}
 .m_left_tab1 a:hover, .m_left_tab1 a:focus{background-position-y: -30px;}
@@ -60,11 +61,12 @@
 .m_right_2_1 select{margin-bottom: 7px;height: 40px;margin-left: 8px;}
 #srh{width: 192px;height: 40px;margin-left: 8px;background: url(../images/container/SEARCH_2.gif) right no-repeat;background-color: #fff;}
 /*검색 끝*/
-.m_right_2_2{overflow-y: scroll;width: 245px;height: 160px;position: relative;position: relative;}
+.m_right_2_2{overflow-y: scroll;width: 245px;height: 158px;position: relative;position: relative; width:243px; border:1px solid #e1e1e1;}
 .m_right_2_2 p{font-size: 14px;font-weight: bold;margin-bottom: 3px;position: absolute;top: 14px;left: 64px;}
 .twitter{display: none;}
 .naver{display: none;}
 .m_right_2_2 span{font-size: 12px;color: #909090;position: absolute;top: 32px;left: 64px;}
+.m_right_2_2 span.twitter, .m_right_2_2 span.naver{display:none;}
 .face{position: absolute;top: 0;left: 0;}
 .twi{position: absolute;top: 52px;left: 0;}
 .blog{position: absolute;top: 105px;left: 0;}
