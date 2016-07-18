@@ -44,7 +44,7 @@ nav{float:right; margin-top:54px;}
 .snb ul li{font-size:12px; border-top:1px solid #d9d9d9;}
 .snb ul li a{color:#333; display:block; height:42px; line-height:42px; padding-left:25px;}
 .snb ul li a:hover, .snb ul li a:focus, .snb ul li a.on{background:#d94541 url(../images/common/snb_arr.gif) no-repeat 170px 50%; color:#fff; font-weight:700; border-bottom:3px solid #d9d9d9;}
-#content{float:left; width:770px; margin-top:40px;}
+#content{float:left; width:770px; margin-top:40px; padding-bottom:100px;}
 .sub_tit{position:relative; overflow:hidden; border-bottom:1px solid #dadada; padding-bottom:6px; }
 .sub_tit h4{font:26px 'Nanum Gothic'; color:#000; font-weight:700; }
 .location{position:absolute; top:15px; right:0;}
