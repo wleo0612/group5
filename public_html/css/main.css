@@ -46,15 +46,21 @@
 #m-bottom{width: 1000px; height: 210px;overflow: hidden;}
 .m_left_2{width: 480px;height: 160px;float: left;overflow: hidden;}
 .m_left_2_1{width: 264px;height: 160px; float: left;background: url(../images/container/banner_1.gif) 0 0 no-repeat;}
+.m_left_2_1 div{padding-left: 16px;padding-top: 16px;}
+.m_left_2_1 div h2{margin-bottom: 8px;font-weight: bold;font-size: 15px;}
+.m_left_2_1 .strong{font-weight: bold;font-size: 15px;}
+.m_left_2_1 div ul li{height: 20px;}
 .m_left_2_2{width: 200px;height: 160px; float: right;background: url(../images/container/banner_2.gif) 0 0 no-repeat;}
+.m_left_2_2 h2 {padding-top: 20px;padding-left: 16px;padding-bottom: 19px;font-weight: bold;font-size: 15px;}
+.m_left_2_2 p{height: 20px;padding-left: 16px;}
 .m_right_2{width: 480px;height: 210px; float: right;overflow: hidden;}
 .m_right_2_1{width: 220px;height: 160px; float: left;padding-top: 59px;background: url(../images/container/SEARCH.gif) 0 0 no-repeat;position: relative;margin-right: 15px;}
 .m_right_2_1 h3{font-weight: bold;font-size: 16px;position: absolute;top: 20px;left: 13px;}
 .m_right_2_1 select{margin-bottom: 7px;height: 40px;margin-left: 8px;}
 #srh{width: 192px;height: 40px;margin-left: 8px;}
 /*검색 끝*/
-.m_right_2_2{overflow: scroll;width: 245px;height: 160px;position: relative;}
-.m_right_2_2 p{display: none;}
+.m_right_2_2{overflow-y: scroll;width: 245px;height: 160px;position: relative;}
+.m_right_2_2 p{padding-left: 50px;font-size: 14px;font-weight: bold;}
 .face{position: absolute;top: 0;left: 0;}
 .twi{position: absolute;top: 52px;left: 0;}
 .blog{position: absolute;top: 105px;left: 0;}
