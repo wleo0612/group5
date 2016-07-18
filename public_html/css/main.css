@@ -18,7 +18,7 @@
 .m_link_site ul li:first-child+li+li+li{display: inline-block;padding-left: 100px;height: 58px;background: url(../images/container/banner_img_4.gif) 30px 50% no-repeat;padding-top: 29px;font-size: 11px;}
 .m_link_site ul li strong{display: block;font-size: 17px;font-weight: bold;color: #9c3807;padding-bottom: 7px;}
 /*link_site 부분 끝*/
-#main_container{overflow: hidden;}
+#main_container{overflow: hidden; padding-bottom:100px;}
 #m_menu{width: 1000px;height: 230px;overflow: hidden;}
 .m_left_1 {margin-top: 10px;overflow: hidden;}
 .m_left_1{width: 480px;height: 230px;position: relative;background: url(../images/container/line_tab.gif) 0 29px repeat-x;float: left;}
