@@ -1,5 +1,6 @@
 @charset "utf-8";
-.m_vi_menu{width: 1000px;height: 330px; background: url(../images/container/vi_main_1.jpg) 0 0 no-repeat;position: relative;}
+.m_vi_menu{width: 1000px;height: 330px; background: url(../images/container/vi_main_1.jpg) 0 0 no-repeat;position: relative;margin-top: 20px;}
+.m_vi_menu li{font-family:'Nanum Gothic';font-size: 13px;}
 .m_vi_menu li:first-child a{color: #fff;}
 .m_vi_menu li:first-child{width: 300px;height: 66px; font-size: 13px; font-style: italic;position: absolute;top: 0;right: 0;}
 .m_vi_menu li:first-child+li{width: 300px; height: 66px;font-size: 13px; font-style: italic;position: absolute;top: 66px;right: 0;}
@@ -57,7 +58,7 @@
 .m_right_2_1{width: 220px;height: 160px; float: left;padding-top: 59px;background: url(../images/container/SEARCH.gif) 0 0 no-repeat;position: relative;margin-right: 15px;}
 .m_right_2_1 h3{font-weight: bold;font-size: 16px;position: absolute;top: 20px;left: 13px;}
 .m_right_2_1 select{margin-bottom: 7px;height: 40px;margin-left: 8px;}
-#srh{width: 192px;height: 40px;margin-left: 8px;}
+#srh{width: 192px;height: 40px;margin-left: 8px;background: url(../images/container/SEARCH_2.gif) right no-repeat;background-color: #fff;}
 /*검색 끝*/
 .m_right_2_2{overflow-y: scroll;width: 245px;height: 160px;position: relative;}
 .m_right_2_2 p{padding-left: 50px;font-size: 14px;font-weight: bold;}
