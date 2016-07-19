@@ -59,7 +59,7 @@
 .m_right_2{width: 480px;height: 210px; float: right;overflow: hidden;}
 .m_right_2_1{width: 220px;height: 160px; float: left;padding-top: 59px;background: url(../images/container/SEARCH.gif) 0 0 no-repeat;position: relative;margin-right: 15px;}
 .m_right_2_1 h3{font-weight: bold;font-size: 16px;position: absolute;top: 20px;left: 13px;}
-.m_right_2_1 select{margin-bottom: 7px;height: 40px;margin-left: 8px;}
+.m_right_2_1 select{margin-bottom: 7px;height: 40px; padding-left:10px; margin-left: 8px;}
 #srh{width: 192px;height: 40px;margin-left: 8px;background: url(../images/container/SEARCH_2.gif) right no-repeat;background-color: #fff;}
 /*검색 끝*/
 .m_right_2_2{overflow-y: scroll;width: 245px;height: 158px;position: relative;position: relative; width:243px; border:1px solid #e1e1e1;}
