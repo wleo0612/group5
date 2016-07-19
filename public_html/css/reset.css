@@ -15,4 +15,5 @@ a:hover, a:focus{color:#f00;}
 input[type="text"], input[type="password"], input[type="tel"], input[type="url"], input[type="email"], input[type="search"]{border:1px solid #b4b4b4; height:17px;}
 select{border:1px solid #b4b4b4;}
 table{border-collapse:collapse;}
+hr {display:none;}
 
