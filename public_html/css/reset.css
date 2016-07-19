@@ -16,4 +16,6 @@ input[type="text"], input[type="password"], input[type="tel"], input[type="url"]
 select{border:1px solid #b4b4b4;}
 table{border-collapse:collapse;}
 hr {display:none;}
+article, aside, hgroup, header, footer, figure, figcaption, nav, section {display:block;}
+
 

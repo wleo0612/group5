@@ -26,8 +26,8 @@ nav{float:right; margin-top:54px;}
 #gnb li ul li a:hover, #gnb li ul li a:focus{color:#333;}
 
 
-.footer_area{width:100%; height:90px; background:url(../images/common/bg_bottom.gif) repeat-x 0 0;}
-#footer{width:1000px; margin:-90px auto 0; overflow:hidden;}
+.footer_area{width:100%; height:90px; margin-top:-90px; background:url(../images/common/bg_bottom.gif) repeat-x 0 0;}
+#footer{width:1000px; margin:0 auto; overflow:hidden;}
 .btm_lft{float:left; margin:22px 0 0 24px;}
 .btm_rgt{float:left; margin-top:17px; margin-left:25px;}
 .policy{overflow:hidden; margin-bottom:15px;}
