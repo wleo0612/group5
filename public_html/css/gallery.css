@@ -1,6 +1,0 @@
-.gallery{overflow: hidden;}
-.gallery li{float: left;padding:0 0px 40px 40px;}
-.gallery li:first-child,.gallery li:first-child+li+li+li{padding-left:10px;}
-.gallery .frame{width:220px;height:220px;overflow: hidden;margin-bottom:10px;position: relative;}
-.gallery img{position: absolute;}
-.gallery img:hover,.gallery img:focus{top:-220px;}
