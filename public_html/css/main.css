@@ -2,6 +2,7 @@
 .m_vi_menu{width: 1000px;height: 330px; background: url(../images/container/vi_main_1.jpg) 0 0 no-repeat;position: relative;margin-top: 20px;}
 .m_vi_menu li{font-family:'Nanum Gothic';font-size: 13px;}
 .m_vi_menu li:first-child a{color: #333;}
+.m_vi_menu li a:hover{color:#fff;}
 .m_vi_menu li:first-child{width: 300px;height: 66px; font-size: 13px; font-style: italic;position: absolute;top: 0;right: 0;}
 .m_vi_menu li:first-child+li{width: 300px; height: 66px;font-size: 13px; font-style: italic;position: absolute;top: 66px;right: 0;}
 .m_vi_menu li:first-child+li+li{width: 300px; height: 66px;font-size: 13px; font-style: italic;position: absolute;top: 132px;right: 0;}
