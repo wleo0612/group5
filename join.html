@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="container">
+		<div id="join_left">
+			<h2>회원관련</h2>
+			<ul>
+				<li><a href="#">회원가입</a></li>
+				<li><a href="#">로그인</a></li>
+				<li><a href="#">ID/PW 찾기</a></li>
+			</ul>
+		</div>
+		<div id="join_right">
+			<h3>회원가입</h3>
+			<form action="#">
+				<fieldset>
+					<legend>회원가입</legend>
+					<table>
+						<caption>회원가입양식</caption>
+						<colgroup></colgroup>
+						<tbody>
+							<tr scope="row">
+								<th><label for="user_name">이름 <img src="public_html/images/join/star.gif" alt="필수입력" /></label></th>
+								<td><input type="text" name="user_name" id="user_name" /></td>
+							</tr>
+							<tr scope="row">
+								<th><label for="user_name">회원아이디 <img src="public_html/images/join/star.gif" alt="필수입력" /></label></th>
+								<td><input type="text" name="user_name" id="user_name" /> <a href="#"><input type="image" src="public_html/images/join/join_03.gif" alt="" /></a><br />-사용자 ID는 4~12자의 영문 소문자와 숫자만 가능하며, 연속된 문자나 숫자를 3개 이상 사용할 수 없습니다.</td>
+							</tr>
+							<tr scope="row">
+								<th><label for="password">비밀번호 <img src="public_html/images/join/star.gif" alt="필수입력" /></label></th>
+								<td><input type="password" name="password" id="password" /><br />
+								-영문소문자, 대문자, 숫자, 특수문자 중 2가지이상 혼합하여 9자리 이상 사용바랍니다.
+								</td>
+							</tr>
+							<tr scope="row">
+								<th><label for="password2">비밀번호확인 <img src="public_html/images/join/star.gif" alt="필수입력" /></label></th>
+								<td><input type="password" name="password2" id="password2" />
+								</td>
+							</tr>
+							<tr scope="row">
+								<th><label for="birthday">생년월일</th>
+								<td>
+									<select name="birthday" id="birthday">
+										<option value="1980">1980</option>
+										<option value="1981">1981</option>
+										<option value="1982">1982</option>
+										<option value="1983">1983</option>
+										<option value="1984">1984</option>
+										<option value="1985">1985</option>
+										<option value="1986">1986</option>
+										<option value="1987">1987</option>
+										<option value="1988">1988</option>
+										<option value="1989">1989</option>
+									</select>
+									<select name="birthday2" id=birthday2>
+										<option value="1월">1월</option>
+										<option value="2월">2월</option>
+										<option value="3월">3월</option>
+										<option value="4월">4월</option>
+										<option value="5월">5월</option>
+										<option value="6월">6월</option>
+										<option value="7월">7월</option>
+										<option value="8월">8월</option>
+										<option value="9월">9월</option>
+										<option value="10월">10월</option>
+										<option value="11월">11월</option>
+										<option value="12월">12월</option>
+									</select>
+									<select name="birthday3" id="birthday3">
+										<option value="1일">1일</option>
+										<option value="2일">2일</option>
+										<option value="3일">3일</option>
+										<option value="4일">4일</option>
+										<option value="5일">5일</option>
+										<option value="6일">6일</option>
+										<option value="7일">7일</option>
+										<option value="8일">8일</option>
+										<option value="9일">9일</option>
+										<option value="10일">10일</option>
+									</select>
+								</td>
+							</tr>
+							<tr scope="row">
+								<th><label for="tel">전화번호</label></th>
+								<td>
+									<select name="tel" id="tel">
+										<option value="02">02</option>
+										<option value="051">051</option>
+										<option value="053">053</option>
+										<option value="032">032</option>
+										<option value="062">062</option>
+										<option value="042">042</option>
+										<option value="052">052</option>
+										<option value="044">044</option>
+										<option value="031">031</option>
+										<option value="033">033</option>
+										<option value="043">043</option>
+										<option value="041">041</option>
+										<option value="063">063</option>
+										<option value="061">061</option>
+										<option value="054">054</option>
+										<option value="055">055</option>
+										<option value="064">064</option>
+									</select> -
+									<input type="text" name="tel2" id="tel2" /> -
+									<input type="text" name="tel3" id="tel3" />
+								</td>
+							</tr>
+							<tr scope="row">
+								<th><label for="phone">휴대전화 <img src="public_html/images/join/star.gif" alt="필수입력" /></label></th>
+								<td>
+									<select name="phone" id="phone">
+										<option value="010">010</option>
+										<option value="011">011</option>
+										<option value="016">016</option>
+									</select> -
+									<input type="text" name="phone2" id="phone2" /> -
+									<input type="text" name="phone3" id="phone3" />
+								</td>
+							</tr>
+							<tr scope="row">
+								<th><label for="phone">이메일 <img src="public_html/images/join/star.gif" alt="필수입력" /></label></th>
+								<td>
+									<input type="text" name="email" id="email" /> @
+									<select name="email2" id="email2">
+										<option value="self">직접입력</option>				
+										<option value="daum">hamail.net</option>
+										<option value="naver">naver.com</option>
+										<option value="google">gmail.com</option>
+										<option value="nate">nate.com</option>
+									</select>
+									<input type="text" name="self" id="self" />
+								</td>
+							</tr>
+							<tr scope="row">
+								<th><label for="phone">주소 <img src="public_html/images/join/star.gif" alt="필수입력" /></label></th>
+								<td>
+									<input type="text" name="address" id="address" /> <img src="public_html/images/join/join_07.gif" alt="우편번호검색" /><br />
+									<input type="text" name="address2" id="address2" /><br />
+									<input type="text" name="address3" id="address3" />
+								</td>
+							</tr>
+							<tr>
+								<th>뉴스레터</th>
+								<td>
+									<input value="y" type="radio" name="receive" checked="checked" /> 수신함
+									<input value="n" type="radio" name="receive" /> 수신안함
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<p>
+						<input type="image" src="public_html/images/join/join_10.gif" alt="회원가입" />
+						<input type="reset" value="취소" class="join_reset" />
+					</p>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
